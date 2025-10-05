@@ -1,0 +1,24 @@
+services:
+  redis:
+    container_name: redis
+    hostname: redis
+    image: redis:alpine
+    networks: ['shared_network']
+    restart: always
+    healthcheck:
+      test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    command: >
+      --requirepass ${REDIS_PWD}
+      --bind 0.0.0.0
+    ports:
+      - '6380:6379'
+    volumes:
+      - ./data/redis:/data
+networks:
+  shared_network:
+    name: shared_network
+    driver: bridge
+    external: true
