@@ -1,5 +1,7 @@
 # Redis Self-Hosted with Docker
 
+![redis-self-hosted](https://repository-images.githubusercontent.com/1070414651/5ec543c2-c5c0-44a1-879a-1f48472b0c96)
+
 This repository provides a `docker compose` setup to run a self-hosted [Redis](https://redis.io/) instance.
 
 It is configured to connect to a shared Docker network, allowing easy integration with other services like [n8n](https://github.com/AiratTop/n8n-self-hosted).
