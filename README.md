@@ -60,6 +60,7 @@ Check out other self-hosted solutions:
 -   [**wordpress-self-hosted**](https://github.com/AiratTop/wordpress-self-hosted): Production-ready WordPress stack with MySQL, phpMyAdmin, and WP-CLI.
 -   [**n8n-self-hosted**](https://github.com/AiratTop/n8n-self-hosted): Scalable n8n with workers, Caddy for auto-HTTPS, and backup scripts.
 -   [**monitoring-self-hosted**](https://github.com/AiratTop/monitoring-self-hosted): Self-hosted monitoring stack with Prometheus and Grafana.
+-   [**ollama-self-hosted**](https://github.com/AiratTop/ollama-self-hosted): Ready-to-use solution for running Ollama with the Open WebUI on Docker.
 
 ## License
 
@@ -73,4 +74,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Website: [airat.top](https://airat.top)
 - GitHub: [@AiratTop](https://github.com/AiratTop)
+- Email: [mail@airat.top](mailto:mail@airat.top)
 - Repository: [redis-self-hosted](https://github.com/AiratTop/redis-self-hosted)
