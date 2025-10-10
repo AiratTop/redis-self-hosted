@@ -13,7 +13,7 @@ services:
     command: >
       --requirepass ${REDIS_PWD}
       --bind 0.0.0.0
-      --save 60 1
+      --save 600 1
     ports:
       - '6380:6379'
     volumes:
